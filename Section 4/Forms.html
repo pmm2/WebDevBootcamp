@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <form action="">
+        <label for="email">Email:</label>
+        <input type="email" placeholder="email" name="username" id="email" required>
+        <label for="password">Senha:</label>
+        <input type="password" placeholder="Senha" name="password" id="password" required>
+        <input type="Submit">
+        <p>Voce prefere cachorros ou gatos</p>
+        <!-- Aprendendo a usar radio para seleção de opções unicas apartir do name -->
+        <label for="Gatos">Gatos</label>
+        <input name="petChoice" id="Gatos" type="radio">
+        <label for="Cachorros">Cachorros</label>
+        <input name="petChoice" id="Cachorros" type="radio">
+        <p>Qual sua cor favorita?</p>
+        <select name="color" id="">
+            <option value="">Vermelho</option>
+            <option value="">Azul</option>
+            <option value="">Verde</option>
+        </select>
+        <!-- uso do value para alterar o valor mandado, para que n fique igual ao valor do campo  -->
+        <p>Como voce esta se sentindo?</p>
+        <select name="mood" id="">
+            <option value="Happy">:)</option>
+            <option value="Sad">:(</option>
+            <option value="Neutral">:I</option>
+        </select>
+        <p>Escreva um pouco sobre vc</p>
+        <textarea name="resumo" id="" cols="30" rows="10"></textarea>
+    </form>
+    
+
+</body>
+
+</html>
