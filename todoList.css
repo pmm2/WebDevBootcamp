@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+}
+/* a maneira abaixo eh como selecionamos elementos pelo id do mesmos */
+#cook {
+    color: rgb(5, 15, 9);
+    background-color: sienna;
+}
+/* a maneira abaixo eh como selecionamos elementos pela class */
+.importantes {
+    color: red;
+}

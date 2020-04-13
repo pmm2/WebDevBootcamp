@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>formsExercise</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+    <h1>Registro</h1>
+
+    <form action="">
+        <!-- id tem que ser igual for do label -->
+        <label for="Nome">Nome:</label>
+        <input id="Nome" type="text" placeholder="Pedro" required>
+        <label for="Sobrenome">Sobrenome:</label>
+        <input id="Sobrenome" type="text" placeholder="Milet" required>
+        <!-- Name precisa ser igual para ligar os radios buttons -->
+        <div>
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="Genero" id="Masculino">
+            <label for="Feminino">Feminino</label>
+            <input type="radio" name="Genero" id="Feminino">
+            <label for="OutroGenero">Outro</label>
+            <input type="radio" name="Genero" id="OutroGenero">
+        </div>
+
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="exemplo@exemplo.com" required>
+            <label for="Senha">Senha:</label>
+            <input type="password" name="Senha" id="Senha" pattern=".{5,10}" required title="Deve conter entre 5 a 10 caracteres"
+                required>
+        </div>
+
+        <div>
+            <label for="NascimentoDia">Data de Nascimento:</label>
+            <select name="NascimentoDia" id="">
+                <option value="um">01</option>
+                <option value="dois">02</option>
+                <option value="tres">03</option>
+            </select>
+            <select name="NascimentoMes" id="">
+                <option value="Janeiro">Janeiro</option>
+                <option value="Fevereiro">Fevereiro</option>
+            </select>
+            <select name="NascimentoAno" id="">
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Termos">Eu concordo com os termos e condições</label>
+            <input type="checkbox" name="Termos" id="Termos">
+        </div>
+
+        <p></p>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+
+</html>
