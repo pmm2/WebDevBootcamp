@@ -1,0 +1,15 @@
+body{
+    font-size: large;
+}
+p{
+    width: 10%;
+    height: 50px;
+    /* limita a box que contem o paragrafo , podemos usar tamanho em pixel ou em % o que faz a box mudar dinamicamente conforme mudamos o tamnho da tela */
+    border: 2px solid blue;
+    padding: 10px;
+    /* padding eh a distancia entre o conteudo e a borda, se um abacate fosse uma box, a semente seria o conteudo e carne seria o padding */
+    /* padding pode ser colocado apenas a direita , apenas a esquerda ou em ambos em proporções diferente, aquilo que não é padding acaba virando conteudo  */
+    margin: 50px;
+    /* margin é a distancia entra as boxes  */
+    /* segue a sintaxe margin: valor-top valor-right valor-bottom valor-left, exemplo margin:20px 40px 500px 100px; */
+}

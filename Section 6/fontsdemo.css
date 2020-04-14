@@ -1,0 +1,36 @@
+/* font family */
+p {
+    font-family: 'Girassol', cursive;
+    /* font provida pelo google fonts, precisa ser adicionado o link provido no site google fonts ao html para poder usar no css  */
+}
+/* font size  */
+
+h1{
+    font-size: 40px;
+}
+span{
+    font-size: 2.0em;
+    /* tamanho da fonte dinamico, duas vezes maior que a fonte da pagina em questão, geralmente 16px, mas por convenção a setamos no body */
+}
+/* font wheight */
+p{
+    font-weight: 700;
+    /* determina a grossura da letra  , geralmente vai de 100 a 800*/
+}
+
+/* line height */
+p{
+    line-height: 2;
+    /* determina a distancia de uma linha para outra */
+}
+
+/* text align */
+h1{
+    text-align: center;
+    /* alinha o texto  */
+}
+/* text decoration  */
+h1{
+    text-decoration: line-through;
+    /* adiciona um frufru ao texto, underline, linha cortando ao meio, etc */
+}
