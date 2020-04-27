@@ -1,0 +1,27 @@
+body{
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    border: 10px solid #bdc3c7;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    padding: 0.5em;
+}
+h1{
+    margin: 0.5em;
+    color: #2c3e50;
+    font-size: 2em;
+}
+p{
+    margin: 0.7em;
+}
+.highlight{
+    border-left: 0.25em solid #bdc3c7 ;
+    padding-left: 0.5em;
+}
+.date {
+    text-transform: uppercase;
+    color: #3498db;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
