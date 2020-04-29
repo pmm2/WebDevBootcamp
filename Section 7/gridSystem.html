@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+<link rel="stylesheet" href="bootstrap.css">
+<style type="text/css">
+.red{
+ border: 2px solid red;
+ background-color: aquamarine;
+}
+</style>
+</head>
+<body>
+    <!-- Aprendendo grid system, tamanhos e nested grids -->
+    <div class="container">
+      <div class="row">
+            <div class="col-lg-3 col-md-2 red">Grande Coluna 3</div>
+            <div class="col-lg-6 col-md-2 red">Grande Coluna 6</div>
+            <div class="col-lg-3 col-md-2 red">Grande Coluna 3</div>
+        </div>
+        <!-- nested grids abaixo -->
+        <div class="row">
+            <div class=" col-md-3 col-sm-6 col-xs-12 red" >
+                <div class="row">
+                    <div class="col-lg-6">Primeira metade</div>
+                    <div class="col-lg-6">Segunda metade</div>
+                </div>
+            </div>
+            <div class=" col-md-3 col-sm-6 col-xs-12 red" >teste</div>
+            <div class=" col-md-3 col-sm-6 col-xs-12 red" >teste</div>
+            <div class=" col-md-3 col-sm-6 col-xs-12 red" >
+                <div class="row">
+                    <div class="col-lg-2">1 </div>
+                    <div class="col-lg-2">2 </div>
+                    <div class="col-lg-2">3 </div>
+                    <div class="col-lg-2">4 </div>
+                    <div class="col-lg-2">5 </div>
+                    <div class="col-lg-2">6 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
