@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="app.css">
+
+  <title>Museum of Candy</title>
+</head>
+
+<body >
+  <nav id="mainNavbar" class="navbar navbar-expand-lg py-0 px-0 fixed-top navbar-dark m-0">
+    <a class="navbar-brand" href="#">Candy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tickets</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="container-fluid p-0">
+    <div class="row conteudo align-items-center">
+      <div class="col-sm-6 ">
+        <div id="headingText" class="text-center d-none d-lg-block">
+          <h1>Museum <span>/</span> of <span>/</span> candy</h1>
+          <h1>Museum <span>/</span> of <span>/</span> candy</h1>
+          <h1>Museum <span>/</span> of <span>/</span> candy</h1>
+          <h1>Museum <span>/</span> of <span>/</span> candy</h1>
+          <h1>Museum <span>/</span> of <span>/</span> candy</h1>
+          <h1>Museum <span>/</span> of <span>/</span> candy</h1>
+        </div>
+
+      </div>
+      <div class="col-sm-6">
+        <img class="img-fluid" src="imgs/hand2.png" alt="">
+      </div>
+
+    </div>
+
+    </div>
+    <div class="row conteudo align-items-center ">
+      <div class="col-sm-6 order-2 ">
+        <img class="img-fluid" src="imgs/sprinkles.png" alt="">
+      </div>
+      <div class="col-sm-6 text-center order-1 order-md-2 descricao">
+        <h1>Museum of candy</h1>
+        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad, non ipsam nesciunt explicabo voluptas unde
+          minus quasi magni pariatur.</p>
+      </div>
+
+    </div>
+    <div class="row conteudo align-items-center">
+      <div class="col-sm-6 text-center descricao">
+        <h1>Museum of candy</h1>
+        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad, non ipsam nesciunt explicabo voluptas unde
+          minus quasi magni pariatur.</p>
+      </div>
+      <div class="col-sm-6 ">
+        <img class="img-fluid" src="imgs/milk.png" alt="">
+      </div>
+        <div class="row conteudo align-items-center ">
+        <div class="col-sm-6 order-2 ">
+          <img class="img-fluid" src="imgs/gumball.png" alt="">
+        </div>
+        <div class="col-sm-6 text-center order-1 order-md-2 descricao">
+          
+          <h1>Museum of candy</h1>
+          <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad, non ipsam nesciunt explicabo voluptas unde
+            minus quasi magni pariatur.</p>
+        </div>
+  
+      </div>
+  </section>
+  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+   
+    <script>
+      $(function () {
+          $(document).scroll(function () {
+              var $nav = $("#mainNavbar");
+              $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          });
+      });
+  </script>
+
+</body>
+
+</html>
