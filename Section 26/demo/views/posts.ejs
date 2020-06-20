@@ -1,0 +1,8 @@
+<%- include("partials/header") %>
+<h1>Posts abaixo</h1>
+
+<%for (let index = 0; index < posts.length; index++) {%>
+<li><%=posts[index].title %> - <%=posts[index].author %></li>
+
+<%}%>
+<%- include("partials/footer") %>
