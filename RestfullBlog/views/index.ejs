@@ -1,0 +1,29 @@
+<%- include("partials/header") %>
+
+<div class="ui main text container">
+  <div class="ui huge header">Restfull Blog</div>
+  <div class="ui top attached segment">
+    <div class="ui divided items">
+      <% posts.forEach(function(post){%>
+      <div class="item">
+        <div class="image">
+          <img src="<%=post.image%>" alt="" />
+        </div>
+        <div class="content">
+          <a href="/posts/<%=post._id%>"><%=post.title%></a>
+          <div class="meta"><span><%=post.created.toDateString()%></span></div>
+          <div class="description">
+            <p><%-post.body.substring(0,100)%>...</p>
+          </div>
+          <div class="extra">
+            <a class="ui floated basic violet button" href="/posts/<%=post._id%>">Show more</a>
+          </div>
+        </div>
+      </div>
+
+      <% })%>
+    </div>
+  </div>
+</div>
+
+<%- include("partials/footer") %>
